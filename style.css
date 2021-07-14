@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body{
-     margin: auto;
+     margin: 0;
      font-family: 'Poppins', sans-serif;
+     padding: 0;
    
     
 }
@@ -40,8 +41,8 @@ border-radius: 0px; */
 }
 /* transiton */
 
-.head-images{
-   
+.header-text {
+    margin-left: 60px;
 }
 
 .head-images:hover{
@@ -346,11 +347,10 @@ color: white;
         display: grid;
         grid-template-columns: 1fr;
     }
-    .header-banner img{
-       
-    width: 100%;
-     margin: -36px;
-    
+
+    .header-banner img {
+        width: 132%;
+        margin: -58px;
     }
 
     .head-images:hover{
@@ -358,6 +358,9 @@ color: white;
         transition: transform 1s ease-out;
     }
 
+    .header-text {
+        margin-left: 0px;
+    }
 
     .big-text {
         color: white;
